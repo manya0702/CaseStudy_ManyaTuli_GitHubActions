@@ -7,7 +7,9 @@ def calculate_simple_interest(principal, rate, time):
     :param time: The time the money is invested for (in years)
     :return: The simple interest
     """
-    return (principal * rate * time) / 100
+    interest = (principal * rate * time) / 100
+    print(f"The simple interest is: {interest}")
+    return interest;
 
 if __name__ == "__main__":
     principal = float(input("Enter the principal amount: "))
